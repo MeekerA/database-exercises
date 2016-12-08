@@ -1,3 +1,4 @@
+
 use employees;
 
 select DISTINCT last_name from employees where last_name like 'Z%' order by last_name DESC limit 10;

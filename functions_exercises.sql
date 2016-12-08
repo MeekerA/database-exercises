@@ -14,7 +14,8 @@ group by gender;
 
 select concat(first_name,' ',  last_name) as 'Full Name'
 from employees
-where first_name like 'E%' and last_name like '%E';
+where first_name like 'E%' and last_name like '%E'
+limit 10;
 
 # For your query of employees born on Christmas and hired in the 90s,
 # use datediff() to find how many days they have been working at the company
